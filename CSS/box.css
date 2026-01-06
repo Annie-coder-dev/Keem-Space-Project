@@ -1,0 +1,35 @@
+.testimonies {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.box {
+  padding: 15%;
+  background-color: darkcyan;
+  text-align: start;
+  border-radius: 1em;
+}
+.text {
+  color: white;
+  font-size: 25px;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-style: oblique;
+  color: rgb(194, 192, 192);
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .box{
+    padding: 50px 70px;
+  }
+  .text{
+    font-size: 30px;
+
+  }
+  
+}

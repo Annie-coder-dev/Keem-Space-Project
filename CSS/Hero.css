@@ -1,0 +1,63 @@
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+}
+.dab {
+  width: 100%;
+  max-width: 380px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+
+
+.about {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  color: black;
+
+}
+
+.motto{
+  font-size: 25px;
+  color: rgb(68, 67, 67);
+}
+
+@media (min-width: 1024px) and (max-width: 1439px){
+  .herocontent{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    /* margin-top: 10px; */
+  }
+
+  h2{
+    text-align: left;
+  }
+
+  .about {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .motto{
+    margin-top: 10px;
+    text-align: left;
+  }
+
+}
+
+
+
+
+

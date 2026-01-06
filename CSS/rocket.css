@@ -1,0 +1,11 @@
+.rockets {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 36px;
+}

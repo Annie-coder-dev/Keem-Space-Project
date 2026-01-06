@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  background-color: rgb(1, 117, 117);
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.menu {
+  font-size: 45px;
+  color: white;
+  cursor: pointer;
+  z-index: 1003;
+  position: relative;
+}
+
+nav {
+  display: none ;
+ 
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  header {
+    padding: 5px 0px 5px 150px;
+    display: flex;
+  
+  }
+  .menu-icon {
+    display: none;
+  }
+  
+  nav {
+    display: block;
+
+  }
+
+  
+}

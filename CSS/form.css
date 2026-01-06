@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20%;
+}
+
+h1 {
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+}
+input {
+  padding: 15px;
+  /* width: 90%; */
+  outline: none;
+  font-size: 23px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+
+textarea {
+  /* width: 90%; */
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 23px;
+  padding: 15px;
+}
+
+label {
+  align-self: flex-start;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+button {
+  align-self: flex-start;
+  background-color: rgb(1, 117, 117);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 23px;
+  padding: 7px 40px;
+}

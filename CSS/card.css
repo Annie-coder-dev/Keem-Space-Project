@@ -1,0 +1,51 @@
+.cards {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2em;
+  max-width: 230px;
+  height: auto;
+  align-items: center;
+  justify-self: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.164);
+  
+}
+
+img {
+  width: 120px;
+}
+
+h4{
+  color: rgb(97, 95, 95);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 24px;
+  color: gray;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+  }
+  .card{
+    padding-bottom: 10px;
+  }
+}
